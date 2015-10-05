@@ -1,0 +1,21 @@
+.bars {
+  height: 85px;
+}
+
+
+svg {
+  width: 900px;
+}
+
+p {
+  float: left;
+  padding-left: 100px;
+  font-size: 25px;
+}
+
+
+/*CSS FOR DONUTS*/
+.donut-chart { width: 204px; height: 204px; margin: 80px; float: left; }
+
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bar Charts</title>
+	<link rel="stylesheet" href="css/style.css">
+  </head>
+
+<body>
+
+
+<div class="velocity-bars">
+
+  <div class="bars">
+    <p>2014</P>
+      <svg>
+        <rect id="background-bar" width="900" height="35"" x="5%" y="15%" fill="#e6e6e6" stroke="rgba(80, 80, 80, 1)" stroke-width="0px" />
+        <rect id="one" width="25" height="35"" x="5%" y="15%" fill="#00a7ca" stroke="rgba(80, 80, 80, 1)" stroke-width="0px" />
+    </svg>
+  </div>
+
+  <div class="bars">
+    <p>2011</P>
+    <svg>
+      <rect id="background-bar" width="900" height="35"" x="5%" y="15%" fill="#e6e6e6" stroke="rgba(80, 80, 80, 1)" stroke-width="0px" />
+      <rect id="two" width="25" height="35"" x="5%" y="15%" fill="#00a7ca" stroke="rgba(80, 80, 80, 1)" stroke-width="0px" />
+    </svg>
+  </div>
+
+</div>
+
+
+<div class="d3-pies">
+
+  <div id="graph1" class="donut-chart" 
+       data-amounts="82,18"
+       data-fills="#00a7ca,#e6e6e6"
+       data-size="304"
+       data-thickness="35">
+  </div>
+
+  <div id="graph2" class="donut-chart" 
+       data-amounts="83,17"
+       data-fills="#00a7ca,#e6e6e6"
+       data-size="304"
+       data-thickness="35">
+  </div>
+
+ </div> 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/velocity/1.2.3/velocity.ui.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
