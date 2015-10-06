@@ -4,14 +4,37 @@
 
 
 svg {
+
   width: 900px;
 }
 
-p {
-  float: left;
-  padding-left: 100px;
-  font-size: 25px;
+
+.block {
+
+	background-color: #282d40;
+	float: left;
+	width: 75px;
+	height: 35px;
+	margin-left: 150px;
+	margin-top: 21px;
 }
+
+.text {
+	position: absolute;
+	display: inline;
+	margin-top: 9px;
+	margin-left: 20px;
+	color: white;
+	float: left;
+}
+
+.text-velocity {
+	display: none;
+	margin-left: 150px;
+	color: black;
+}
+
+
 
 
 /*CSS FOR DONUTS*/

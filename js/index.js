@@ -2,6 +2,11 @@
 
 $('#one').velocity({width: "75%"}, {duration: 1000});
 
+$('.text-velocity')
+.velocity("fadeIn", { duration: 200 })
+.velocity({translateX: 770}, {duration: 1000});
+
+
 $('#two').velocity({width: "55%"}, {duration: 1000});
 
 $('#pie').velocity({fill: "#ff0000"}, {duration: 1000});
